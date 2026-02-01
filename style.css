@@ -1,10 +1,8 @@
 body{
     background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
 }
-
-
-
-
 
 
 h1{
@@ -19,11 +17,16 @@ h1{
 
 h3{
     font-family: "Story Script", sans-serif;
-    color:white;
+    color:rgb(181, 96, 203);
 }
 
 #bttn{
     font-family: "Story Script", sans-serif;
     background-color: green;
     color:aquamarine;
+}
+
+#image{
+    height:250px;
+    width:250px;
 }
